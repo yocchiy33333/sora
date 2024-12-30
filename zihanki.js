@@ -64,7 +64,6 @@ win++
 lose++
 }
 restart.classList.remove('hide')
-score.classList.remove('hide')
 }
 
 restart.onclick = () => {
