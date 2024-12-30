@@ -69,7 +69,6 @@ score.classList.remove('hide')
 
 restart.onclick = () => {
 paragraph.innerText='0円で買いましょう'
-gamearea.classList.remove('hide')
 zihanki.src='machine_jidouhanbaiki.png'
 mizu.classList.remove('hide')
 kora.classList.remove('hide')
