@@ -75,7 +75,7 @@ mizu.classList.remove('hide')
 kora.classList.remove('hide')
 atsui.classList.remove('hide')
 restart.classList.add('hide')
-result.classList.remove('hide')
+
 endFlag=false;
 }
 
