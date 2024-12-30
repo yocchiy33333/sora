@@ -80,9 +80,9 @@ endFlag=false;
 }
 
 score.onclick = () =>{
-let text = (win + lose + draw ) + '戦目'
-text += win + '勝利  ' + lose + '敗北  ' + draw + '引き分け\n\n '
-paragraph.innerText=text
+let text = (win + lose + draw ) + '戦目';
+text += win + '勝利  ' + lose + '敗北  ' + draw + '引き分け\n\n';
+paragraph.innerText=text;
     score.classList.add('hide')
     gamearea.classList.add('hide')
     
