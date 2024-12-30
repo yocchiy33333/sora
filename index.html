@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自販機</title>
+    <link rel="stylesheet" href="zihanki.css">
+</head>
+<body>
+    <h1>自動販売機無料購入ゲーム</h1>
+    <div id="gamearea">
+    <p id="paragraph">0円で買いましょう</p>
+    <img src="machine_jidouhanbaiki.png" id="zihanki">
+    <div>
+        <img src="water.png" id="mizu" onclick="game(0)">
+        <img src="drink_cola_petbottle.png" id="kora" onclick="game(1)">
+        <img src="drink_petbottle_coffee.png" id="atsui" onclick="game(2)">
+    </div>
+    <h2 id="result"></h2>
+    </div>
+    <button id="restart" class="hide">リトライする</button>
+    <button id="score" class="hide">結果</button>
+  <h3 id="kane">0円で欲しいを選んでください</h3>
+  <script src="zihanki.js"></script>
+</body>
+</html>
